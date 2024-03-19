@@ -1,0 +1,62 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    vertical-align: top;
+    width: 33.33%; /* Distribuye el ancho igualmente entre las tres columnas */
+    padding: 10px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+img {
+    max-width: 80%; /* Ajusta el tamaño máximo de las imágenes al 100% del ancho del contenedor */
+    height: 48%; /* Mantiene la proporción de aspecto de las imágenes */
+    display: block; /* Elimina el espacio adicional debajo de las imágenes */
+    margin-bottom: 10px; /* Añade un poco de espacio entre las imágenes */
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bangers', sans-serif;
+    background-image: url("/src/marvel2.jpg");
+    background-size:30%;
+    background-repeat:contain;
+    color: white;
+    font-size: large;
+    
+ 
+  }
+  .title{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+  header {
+    background-color:  #f53028;
+    padding: 20px;
+    color: #f5f5f5;
+    font-size: 40px;
+    text-align: center;
+    background-image: url("/src/marvel.gif");
+    background-repeat:contain;
+    height: 150px; 
+    -webkit-text-stroke: 0.000px black; 
+  
+  }
+  
+mark {
+    background-color: #882300;
+    color: white; /* Opcional: cambia el color del texto si es necesario para mayor contraste */
+    /* Otros estilos que desees */
+}
+.texto{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+td, th {
+    max-width: 300px; /* Ajusta el valor según sea necesario */
+    max-height: 500px;
+    overflow: auto; /* Agrega desplazamiento horizontal si el contenido es demasiado ancho */
+}
